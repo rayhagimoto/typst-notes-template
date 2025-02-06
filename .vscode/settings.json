@@ -3,7 +3,7 @@
         "commands": [
             {
                 "match": "\\.typ$",
-                "cmd": "typst compile src/main.pdf main.pdf",
+                "cmd": "export XDG_DATA_HOME=\"$HOME/.local/share\" && typst compile src/main.pdf main.pdf",
                 "useShortcut": false,
                 "silent": true
             }
