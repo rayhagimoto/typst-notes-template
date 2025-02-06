@@ -1,0 +1,12 @@
+{
+    "saveAndRun": {
+        "commands": [
+            {
+                "match": "\\.typ$",
+                "cmd": "typst compile src/main.pdf main.pdf",
+                "useShortcut": false,
+                "silent": true
+            }
+        ]
+    }
+}
